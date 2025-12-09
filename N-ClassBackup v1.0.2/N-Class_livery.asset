@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 945288799, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: N-Class_livery
+  m_EditorClassIdentifier: 
+  parentType: {fileID: 11400000, guid: a0a774fa9f3881b4893ebbeb16b785ad, type: 2}
+  id: N-Class
+  NameTranslationJson: '[{"Language":"English","Value":"N-Class"}]'
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: N-Class
+  icon: {fileID: 21300000, guid: 8f1918816f9aac946a1fbdc95bc07903, type: 3}
+  localizationKey: ccl/livery/N-Class
+  prefab: {fileID: 1688182864204300644, guid: f50da7005a047ee4f9402589116d703c, type: 3}
+  interiorPrefab: {fileID: 2965995292563207699, guid: ee080e014d63c314899e7bd8f3c52530,
+    type: 3}
+  explodedInteriorPrefab: {fileID: 0}
+  externalInteractablesPrefab: {fileID: 1312500395324393714, guid: ebe5f4e34c1c9694d9d180780667ce13,
+    type: 3}
+  explodedExternalInteractablesPrefab: {fileID: 0}
+  FrontBogie: 10000
+  RearBogie: 10000
+  BufferType: 10000
+  HasMUCable: 1
+  UseCustomHosePositions: 1
+  HideHookPlates: 0
+  HideFrontCoupler: 0
+  HideBackCoupler: 0
+  TrainsetLiveries: []
+  LocoSpawnGroups:
+  - Track: 0
+    AdditionalLiveries: []
+  - Track: 100
+    AdditionalLiveries: []
+  - Track: 1000
+    AdditionalLiveries: []
+  - Track: 1001
+    AdditionalLiveries: []
+  - Track: 1002
+    AdditionalLiveries: []
+  - Track: 1005
+    AdditionalLiveries: []
+  - Track: 1300
+    AdditionalLiveries: []
+  - Track: 500
+    AdditionalLiveries: []
+  _spawnGroupJson: '[{"AdditionalLiveries":[],"Track":"CitySouth"},{"AdditionalLiveries":[],"Track":"CityWest"},{"AdditionalLiveries":[],"Track":"HarbourA1"},{"AdditionalLiveries":[],"Track":"HarbourRoundhouse1"},{"AdditionalLiveries":[],"Track":"HarbourRoundhouse2"},{"AdditionalLiveries":[],"Track":"HarbourRoundhouse5"},{"AdditionalLiveries":[],"Track":"MachineFactoryA1"},{"AdditionalLiveries":[],"Track":"Farm"}]'
+  UnlockableAsWorkTrain: 0
+  UnlockPrice: 30000
+  SummonPrice: 5000
+  CatalogPage: {fileID: 11400000, guid: 33306fe212a53444989047dfc8d5a06c, type: 2}
+  buttonRender: 0

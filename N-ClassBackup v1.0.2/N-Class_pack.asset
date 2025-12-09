@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 711031822, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: N-Class_pack
+  m_EditorClassIdentifier: 
+  PackId: N-Class
+  PackName: N-Class
+  Author: -Sam-
+  Version: 1.0.2
+  HomePage: 
+  Repository: 
+  Cars:
+  - {fileID: 11400000, guid: a0a774fa9f3881b4893ebbeb16b785ad, type: 2}
+  ExtraModels: []
+  PaintSubstitutions: []
+  ProceduralMaterials: {fileID: 0}
+  ExtraTranslations: {fileID: 0}
+  AdditionalDependencies: []
+  _buttons: 0
+  ExporterVersion: 3.1.2

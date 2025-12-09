@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -701297949, guid: b247489fc36790c41b197410cd8386d9, type: 3}
+  m_Name: N-Class_cartype
+  m_EditorClassIdentifier: 
+  KindSelection: 2
+  id: N-Class
+  carIdPrefix: '-'
+  IsSteamLocomotive: 0
+  localizationKey: ccl/car/N-Class
+  NameTranslations:
+    Items:
+    - Language: 0
+      Value: N-Class
+  NameTranslationJson: '[{"Language":"English","Value":"N-Class"}]'
+  liveries:
+  - {fileID: 11400000, guid: a360c2cdb7b9f1349aa8357978993a3e, type: 2}
+  mass: 125000
+  bogieSuspensionMultiplier: 1
+  rollingResistanceCoefficient: 0.002
+  wheelSlidingFrictionCoefficient: 0.13
+  wheelslipFrictionCoefficient: 0.2
+  brakes:
+    hasCompressor: 1
+    hasMainResConnections: 0
+    brakeValveType: 1
+    hasIndependentBrake: 1
+    hasHandbrake: 1
+    ignoreOverheating: 0
+    brakeCylinderPressureCalculation: 0
+    brakingForcePerBogieMultiplier: 1.5
+    TrainBrakeCurveType: 1
+    TrainBrakeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    IndBrakeCurveType: 1
+    IndBrakeCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  damage:
+    maxHealth: 8000
+    damageResistance: 50
+    damageMultiplier: 1
+    fireResistance: 7.5
+    fireDamageMultiplier: 1
+    damageTolerance: 0.01
+    ignoreDamage: 0
+    wheelsHP: 3000
+    mechanicalPowertrainHP: 3000
+    electricalPowertrainHP: 3000
+    bodyPrice: 40000
+    wheelsPrice: 40000
+    electricalPowertrainPrice: 40000
+    mechanicalPowertrainPrice: 45000
+  wheelRadius: 0.459
+  useDefaultWheelRotation: 0
+  UseCustomGauge: 0
+  Gauge: 1435
+  CargoSetup: {fileID: 0}
+  unusedCarDeletePreventionMode: 0
+  SimAudioPrefab: {fileID: 4281236909492811212, guid: 7a090fcae1c19a34ba3a2ce4f01631c4,
+    type: 3}
+  HUDLayout: {fileID: 11400000, guid: 920efdce9d248264989c9a37cc198218, type: 2}
+  GeneralLicense: 
+  JobLicenses: []
+  brakesJson: '{"brakeCylinderPressureCalculation":"Regular","brakeValveType":"SelfLap","brakingForcePerBogieMultiplier":1.5,"hasCompressor":true,"hasHandbrake":true,"hasIndependentBrake":true,"hasMainResConnections":false,"ignoreOverheating":false,"IndBrakeCurve":{"keys":[],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"IndBrakeCurveType":"LocoDefault","TrainBrakeCurve":{"keys":[{"inTangent":1,"inWeight":0,"outTangent":1,"outWeight":0,"tangentMode":34,"time":0,"value":0,"weightedMode":"None"},{"inTangent":1,"inWeight":0,"outTangent":1,"outWeight":0,"tangentMode":34,"time":1,"value":1,"weightedMode":"None"}],"postWrapMode":"ClampForever","preWrapMode":"ClampForever"},"TrainBrakeCurveType":"LocoDefault"}'
+  damageJson: '{"bodyPrice":40000,"damageMultiplier":1,"damageResistance":50,"damageTolerance":0.01,"electricalPowertrainHP":3000,"electricalPowertrainPrice":40000,"fireDamageMultiplier":1,"fireResistance":7.5,"ignoreDamage":false,"maxHealth":8000,"mechanicalPowertrainHP":3000,"mechanicalPowertrainPrice":45000,"wheelsHP":3000,"wheelsPrice":40000}'
